@@ -15,16 +15,16 @@
         }
         header {
             background: linear-gradient(to right, #00c6ff, #0072ff);
-            padding: 20px;
+            padding: 40px 20px;
             text-align: center;
         }
         header h1 {
             margin: 0;
-            font-size: 2.5rem;
+            font-size: 3rem;
         }
         header p {
-            margin: 5px 0 0;
-            font-size: 1.2rem;
+            margin: 10px 0 0;
+            font-size: 1.5rem;
         }
         .container {
             max-width: 1200px;
@@ -32,12 +32,12 @@
             padding: 20px;
         }
         section {
-            margin-bottom: 30px;
+            margin-bottom: 40px;
         }
         h2 {
             border-left: 5px solid #0072ff;
             padding-left: 10px;
-            font-size: 2rem;
+            font-size: 2.5rem;
             color: #00c6ff;
         }
         ul {
@@ -61,12 +61,24 @@
             margin: 0;
             font-size: 1rem;
         }
+        .author-section {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .author-section img {
+            max-width: 200px;
+            border-radius: 10px;
+        }
+        .author-section .details {
+            flex: 1;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Makafui Bokor</h1>
-        <p>Cybersecurity Visionary | IT Professional with 10+ Years of Experience</p>
+        <p>Cybersecurity Visionary | Author of "Bridge" | IT Professional with 10+ Years of Experience</p>
     </header>
 
     <div class="container">
@@ -76,6 +88,21 @@
             <p>
                 Experienced IT Professional with over 10 years of expertise in IT support, cybersecurity, and network administration. Proven ability to lead projects, implement security solutions, and optimize infrastructure performance.
             </p>
+        </section>
+
+        <!-- Author Section -->
+        <section>
+            <h2>Author of "Bridge"</h2>
+            <div class="author-section">
+                <img src="images/bridge-book-cover.jpg" alt="Bridge Book Cover">
+                <div class="details">
+                    <p>
+                        "Bridge" is my contribution to the cybersecurity world. It explores practical strategies to secure businesses and individuals against modern cyber threats.
+                        This book bridges the gap between theoretical concepts and actionable solutions, empowering readers to build their digital defenses.
+                    </p>
+                    <p><a href="https://example.com/bridge" target="_blank">Learn more about 'Bridge'</a></p>
+                </div>
+            </div>
         </section>
 
         <!-- Professional Experience Section -->
