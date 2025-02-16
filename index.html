@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Makafui Bokor - Biography of an IT Visionary and Cybersecurity Expert">
-    <title>Makafui Bokor | Biography</title>
+    <meta name="description" content="Makafui Bokor - Cybersecurity Visionary, IT Professional, and Author of 'Bridge'">
+    <meta name="keywords" content="Makafui Bokor, Cybersecurity Visionary, IT Professional, Author, Bridge Book, Adentiti Limited">
+    <meta name="author" content="Makafui Bokor">
+    <title>Makafui Bokor | Cybersecurity Visionary & Author</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -12,42 +14,40 @@
             padding: 0;
             background-color: #0a0a0a;
             color: #ffffff;
-            line-height: 1.6;
         }
         header {
             background: linear-gradient(to right, #00c6ff, #0072ff);
-            padding: 50px 20px;
-            text-align: center;
             color: #ffffff;
-        }
-        header img {
-            max-width: 150px;
-            border-radius: 50%;
-            border: 4px solid #ffffff;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+            padding: 40px 20px;
+            text-align: center;
         }
         header h1 {
-            font-size: 2.5rem;
-            margin: 20px 0 10px;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+            font-size: 3rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
         }
         header p {
-            font-size: 1.2rem;
-            margin: 0;
+            font-size: 1.5rem;
+            margin: 10px 0 0;
         }
         .container {
-            max-width: 900px;
-            margin: 20px auto;
+            max-width: 1200px;
+            margin: 0 auto;
             padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
         }
         h2 {
             border-left: 5px solid #0072ff;
             padding-left: 10px;
-            font-size: 2rem;
+            font-size: 2.5rem;
             color: #00c6ff;
         }
-        p, ul {
-            margin-bottom: 20px;
+        ul {
+            list-style-type: square;
+            margin: 10px 0;
+            padding-left: 20px;
         }
         a {
             color: #00c6ff;
@@ -58,64 +58,138 @@
         }
         footer {
             background: #111111;
-            text-align: center;
             padding: 20px;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+        .author-section {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .author-section img {
+            max-width: 200px;
+            border-radius: 10px;
+        }
+        .author-section .details {
+            flex: 1;
+        }
+        .book-details {
+            display: none;
+            background-color: #1a1a1a;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .book-details h3 {
+            color: #00c6ff;
+        }
+        .reveal-btn {
+            background-color: #0072ff;
             color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .reveal-btn:hover {
+            background-color: #005bb5;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .skill-card {
+            background: linear-gradient(to right, #0a0a0a, #1a1a1a);
+            border: 1px solid #0072ff;
+            border-radius: 10px;
+            padding: 20px;
+            flex: 1;
+            min-width: 200px;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
         }
     </style>
+    <script>
+        function toggleBookDetails() {
+            const details = document.getElementById('book-details');
+            details.style.display = details.style.display === 'none' || details.style.display === '' ? 'block' : 'none';
+        }
+    </script>
 </head>
 <body>
-    <!-- Header Section -->
     <header>
-        <img src="images/makafui-bokor-profile.jpg" alt="Makafui Bokor">
-        <h1>Makafui Bokor</h1>
-        <p>Cybersecurity Visionary | Author of "Bridge" | IT Professional with 10+ Years of Experience</p>
+        <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 20px;">
+            <img src="images/makafui-bokor-profile.jpg" alt="Makafui Bokor" style="max-width: 150px; border-radius: 50%; border: 4px solid #ffffff; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);">
+            <div>
+                <h1>Makafui Bokor</h1>
+                <p>Cybersecurity Visionary | Author of "Bridge" | IT Professional with 10+ Years of Experience</p>
+            </div>
+        </div>
     </header>
 
-    <!-- Main Content -->
     <div class="container">
         <!-- Biography Section -->
         <section>
             <h2>Biography</h2>
             <p>
-                Makafui Bokor (born February 25, 1986) is a Ghanaian-Canadian IT Professional and Cybersecurity Visionary. Born and raised in Accra, Ghana, Makafui developed a passion for technology from a young age. His journey from a curious tech enthusiast to a recognized leader in IT and cybersecurity exemplifies dedication and innovation.
-            </p>
-            <p>
-                As the founder of <strong>Adentiti Limited</strong>, Makafui has empowered countless organizations to safeguard their digital assets. Through his visionary leadership, he continues to pioneer groundbreaking solutions tailored for modern cybersecurity challenges.
-            </p>
-        </section>
-
-        <!-- Early Life Section -->
-        <section>
-            <h2>Early Life and Education</h2>
-            <p>
-                Growing up in Accra, Ghana, Makafui excelled in academics and displayed a keen interest in technology. After completing his foundational education, he pursued a <strong>Bachelor of Arts in Social Science</strong> at the University of Ghana. Later, he transitioned into the tech industry, earning advanced certifications in IT and cybersecurity, including an <strong>IT Professional Diploma</strong> from triOS College in Canada.
-            </p>
-            <p>
-                These experiences laid the groundwork for Makafui’s career in IT, where he has become a trusted name in cybersecurity.
-            </p>
-        </section>
-
-        <!-- Career Section -->
-        <section>
-            <h2>Career and Accomplishments</h2>
-            <p>
-                Makafui's professional journey spans over a decade, with key accomplishments that include spearheading large-scale IT migrations, designing gamified cybersecurity training programs, and developing bespoke security solutions for businesses in Canada and beyond.
-            </p>
-            <p>
-                His ability to communicate complex technical concepts effectively and inspire teams has made him a sought-after advisor in the IT industry.
+                Born on February 25, 1986, in Accra, Ghana, I have dedicated over a decade to shaping the IT and cybersecurity landscape. 
+                From pioneering tailored security solutions to authoring the influential book <strong>"Bridge"</strong>, my career reflects a commitment to innovation and excellence.
             </p>
         </section>
 
         <!-- Author Section -->
         <section>
             <h2>Author of "Bridge"</h2>
-            <p>
-                Makafui's book, <strong>"Bridge"</strong>, serves as a beacon for professionals and individuals navigating the digital landscape. By offering actionable strategies and exploring the latest in cybersecurity innovations, <strong>"Bridge"</strong> equips readers with the tools to build resilient digital defenses.
-            </p>
-            <p>
-                <a href="#bridge-details">Learn more about "Bridge"</a>
-            </p>
+            <div class="author-section">
+                <img src="images/bridge-book-cover.jpg" alt="Bridge Book Cover">
+                <div class="details">
+                    <p>
+                        <strong>"Bridge"</strong> is my contribution to the cybersecurity world. It explores practical strategies to secure businesses and individuals against modern cyber threats.
+                        This book bridges the gap between theoretical concepts and actionable solutions, empowering readers to build their digital defenses.
+                    </p>
+                    <button class="reveal-btn" onclick="toggleBookDetails()">Learn More</button>
+                </div>
+            </div>
+            <div id="book-details" class="book-details">
+                <h3>Bridge: A Cybersecurity Blueprint for the Modern Era</h3>
+                <p>In a world where the digital landscape is both an enabler and a battleground, <strong>"Bridge"</strong> provides clarity and innovative solutions to tackle modern cybersecurity challenges.</p>
+                <ul>
+                    <li><strong>Emerging Threats:</strong> A deep dive into AI-driven cyberattacks and IoT vulnerabilities.</li>
+                    <li><strong>Leadership's Role:</strong> Strategies to foster a culture of vigilance and innovation.</li>
+                    <li><strong>Everyday Cybersecurity:</strong> Practical steps to secure systems and data.</li>
+                </ul>
+                <p><a href="https://example.com/bridge" target="_blank" style="color: #00c6ff;">Visit the official book page</a></p>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section>
+            <h2>Technical and Communication Skills</h2>
+            <div class="skills-list">
+                <div class="skill-card">
+                    <h3>Cybersecurity</h3>
+                    <p>Expert in Oracle Cloud Infrastructure, Threat Detection, and Vulnerability Management.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Programming</h3>
+                    <p>Proficient in Python and PowerShell for IT automation and solutions development.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Database Management</h3>
+                    <p>Oracle SQL Developer and SQL Server Administration expertise for optimized performance.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Communication</h3>
+                    <p>Proven ability to convey complex concepts to non-technical stakeholders effectively.</p>
+                </div>
+            </div>
         </section>
 
         <!-- Contact Section -->
@@ -127,7 +201,6 @@
         </section>
     </div>
 
-    <!-- Footer Section -->
     <footer>
         <p>&copy; 2025 Makafui Bokor. All Rights Reserved.</p>
     </footer>
