@@ -156,32 +156,53 @@
     </p>
 </section>
 
+<!-- Author Section -->
+<section>
+    <h2>Author of "Bridge"</h2>
+    <div class="author-section">
+        <img src="images/bridge-book-cover.jpg" alt="Bridge Book Cover" style="max-width: 200px; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);">
+        <div class="details">
+            <p>
+                <strong>"Bridge"</strong> is my passion project and a cornerstone in my journey as a cybersecurity professional. It’s more than just a book—it’s a roadmap for businesses and individuals navigating today’s complex digital world. 
+                Packed with actionable strategies and real-world examples, it bridges the gap between theoretical concepts and practical solutions to modern cyber threats.
+            </p>
+            <p>
+                Whether you’re a business owner looking to protect your operations or a tech enthusiast eager to explore the evolving landscape of AI, IoT, and quantum computing, <strong>"Bridge"</strong> delivers insights that matter. 
+                The book is designed to empower readers with the knowledge to safeguard their digital assets while fostering a mindset of proactive security.
+            </p>
+            <p>
+                From tailored strategies for industries like healthcare and finance to everyday tips for SMBs and individuals, <strong>"Bridge"</strong> is your companion for staying one step ahead in the cybersecurity game. 
+                It’s a call to action for anyone ready to embrace innovation, resilience, and trust in the digital age.
+            </p>
+            <button class="reveal-btn" onclick="toggleBookDetails()" style="background: #0072ff; color: #ffffff; padding: 10px 20px; border-radius: 5px; font-weight: bold; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);">Learn More</button>
+        </div>
+    </div>
+    <div id="book-details" class="book-details" style="display: none; margin-top: 20px; border-top: 1px solid #00c6ff; padding-top: 20px;">
+        <h3 style="color: #00c6ff;">Bridge: A Cybersecurity Blueprint for the Modern Era</h3>
+        <p>
+            In a world where the digital landscape is both an enabler and a battleground, <strong>"Bridge"</strong> provides clarity and innovative solutions to tackle modern cybersecurity challenges. 
+            This book blends deep insights into emerging threats with actionable strategies to foster trust and resilience in a digital-first era.
+        </p>
+        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
+            <li><strong>Emerging Threats:</strong> A comprehensive exploration of AI-driven cyberattacks, IoT vulnerabilities, and quantum computing's potential risks and rewards.</li>
+            <li><strong>Leadership's Role:</strong> How visionary leaders can inspire security-first cultures, align business goals with cybersecurity strategies, and drive innovation.</li>
+            <li><strong>Everyday Cybersecurity:</strong> Straightforward, practical steps to protect personal data, business operations, and customer trust in a constantly evolving threat landscape.</li>
+        </ul>
+        <p>
+            By purchasing or exploring <strong>"Bridge"</strong>, you’re not just investing in a book; you’re stepping into a world of practical knowledge, innovative thinking, and actionable guidance to fortify your digital presence.
+        </p>
+        <p style="margin-top: 20px; text-align: center;">
+            <a href="#contact" style="background: #00c6ff; color: #ffffff; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);">Get in Touch to Learn More</a>
+        </p>
+    </div>
+</section>
 
-        <!-- Author Section -->
-        <section>
-            <h2>Author of "Bridge"</h2>
-            <div class="author-section">
-                <img src="images/bridge-book-cover.jpg" alt="Bridge Book Cover">
-                <div class="details">
-                    <p>
-                        <strong>"Bridge"</strong> is my contribution to the cybersecurity world. It explores practical strategies to secure businesses and individuals against modern cyber threats.
-                        This book bridges the gap between theoretical concepts and actionable solutions, empowering readers to build their digital defenses.
-                    </p>
-                    <button class="reveal-btn" onclick="toggleBookDetails()">Learn More</button>
-                </div>
-            </div>
-            <div id="book-details" class="book-details">
-                <h3>Bridge: A Cybersecurity Blueprint for the Modern Era</h3>
-                <p>In a world where the digital landscape is both an enabler and a battleground, <strong>"Bridge"</strong> provides clarity and innovative solutions to tackle modern cybersecurity challenges.</p>
-                <ul>
-                    <li><strong>Emerging Threats:</strong> A deep dive into AI-driven cyberattacks and IoT vulnerabilities.</li>
-                    <li><strong>Leadership's Role:</strong> Strategies to foster a culture of vigilance and innovation.</li>
-                    <li><strong>Everyday Cybersecurity:</strong> Practical steps to secure systems and data.</li>
-                </ul>
-                <p><a href="https://example.com/bridge" target="_blank" style="color: #00c6ff;">Visit the official book page</a></p>
-            </div>
-        </section>
-
+<script>
+    function toggleBookDetails() {
+        const details = document.getElementById("book-details");
+        details.style.display = details.style.display === "none" ? "block" : "none";
+    }
+</script>
         <!-- Technical Skills Section -->
         <section>
             <h2>Technical and Communication Skills</h2>
